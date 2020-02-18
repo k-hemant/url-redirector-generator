@@ -26,7 +26,7 @@ $page=$_POST["page"];
 
 $fp=fopen("$page.html","a+");
 fwrite($fp,"<html><title>$page</title> <meta http-equiv='Refresh' content='0; url=$url' /> </html>");
-echo "<fieldset style='width:170px;border-color:black;'><font size='2' face='verdana'>You Url :<a href='$page.html' target='_blank'>$page.html</a></font></fieldset>";
+echo "<fieldset style='width:170px;border-color:black;'><font size='2' face='verdana'>Your Url :<a href='$page.html' target='_blank'>$page.html</a></font></fieldset>";
 fclose($fp);
 }
 ?>
